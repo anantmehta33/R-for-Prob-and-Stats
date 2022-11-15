@@ -18,7 +18,7 @@ print(less_than_84)
 #poissons distribution. --> on an avg 
 prob<-dpois(0,lambda=5)
 print(prob)
-prob2<-ppois(50,lambda=50)-ppois(47,lambda = 50) #why not 51?????
+prob2<-ppois(51,lambda=50)-ppois(47,lambda = 50) 
 print(prob2)
 #dhyper
 prob6<-dhyper(x=3,m=17,n=233,k=5)
